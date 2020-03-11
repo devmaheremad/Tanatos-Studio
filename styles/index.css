@@ -532,6 +532,43 @@ footer p {
 /* End Footer */
 
 
+/* Start Media Fix */
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.7rem 2rem;
+    }
+    #main-slider .carousel-item .data h3 {
+        font-size: 52px;
+    }
+    #main-slider .carousel-item .data p {
+        font-size: 15px;
+    }
+    #main-slider .carousel-item .data button:first-of-type {
+        margin-right: 10px;
+    }
+    .about .team {
+        margin-bottom: 30px;
+    }
+    .contact textarea.form-control {
+        width: 100%;
+    }
+    .contact .btn-box button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact .icon-box i:not(:last-of-type) {
+        margin-right: 35px;
+    }
+    .font-weight-bold {
+        font-size: 14px;
+    }
+}
+
+
+/* End Media Fix */
+
+
 /* Start My Framework */
 
 .hsection {
